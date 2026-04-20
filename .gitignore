@@ -1,0 +1,44 @@
+# Data files (too big, IMC-owned, don't redistribute)
+*.csv
+*.zip
+ROUND_*.zip
+
+# Platform submission artifacts (private submission results)
+*.log
+submission_*.json
+[0-9]*.json
+[0-9]*.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Credentials / secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# Backtest outputs
+backtests/
+backtest_results/
+*.csv.bak
